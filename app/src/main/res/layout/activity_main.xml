@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/black_frame"
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        android:layout_margin="16dp"
+        android:background="@android:color/black" />
+    <TextView
+        android:id="@+id/white_background"
+        android:layout_width="375dp"
+        android:layout_height="434dp"
+        android:layout_margin="18dp"
+        android:background="@android:color/white" />
+
+    <com.example.m2_layout.CustomWidget
+        android:id="@+id/widget_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="16dp">
+    </com.example.m2_layout.CustomWidget>
+</FrameLayout>
